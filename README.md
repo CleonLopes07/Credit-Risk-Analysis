@@ -36,7 +36,6 @@ Finally, we will evaluate the performance of these models and give recommendatio
 - Data Sources: LoanStats_2019Q1.csv, credit_risk_resampling.ipynb, credit_risk_ensemble.ipynb.
 - Software & Frameworks: Python (3.7).
 - Libraries & Packages: Jupyter Notebook, NumPy (1.21.5), Scipy (1.7.3), Scikit-learn (1.0.2) for Over- and Under-sampling algorithms, Scikit-learn (0.23.2) for Ensemble Learning, imbalanced-learn library (0.7.0).
-- Online Tools: [Credit_Risk_Analysis GitHub repository.](https://github.com/SamaanAnalyst/Credit_Risk_Analysis)
 
 
 ## Methods & Code
