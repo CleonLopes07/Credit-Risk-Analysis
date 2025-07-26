@@ -1,7 +1,7 @@
-# Credit_Risk_Analysis
+Credit Risk Analysis - Project Report
 In this project, we will predict credit card loan risk with machine learning models that we will build and evaluate using Python software and imbalanced-learn and Scikit libraries.
 
-## Project Background
+Project Background
 All over the world, people borrow money to purchase homes or cars, start businesses, and pursue education. <br> 
 Loans are an essential part of modern society, but loans present an opportunity and challenge for banks and other lending institutions. <br>
 On the one hand, loans create revenue with the interest they generate; on the other hand, there is a risk that borrowers will not repay loans, and banks will lose money. <br>
@@ -20,25 +20,25 @@ In this project, we will use Python and the Scikit library to build and evaluate
 
 
 
-### Project Purpose
+Project Purpose
 
 Using the credit card dataset from LendingClub, a peer-to-peer lending services company, we will oversample the data via the RandomOverSampler and SMOTE algorithms. Then we will undersample the same dataset using the ClusterCentroids algorithm. <Br>Furthermore, we will use a combinatorial approach of over- and undersampling using the SMOTEENN algorithm. <br>
 Next, we will compare two new machine learning models that reduce bias, BalancedRandomForestClassifier, and EasyEnsembleClassifier, to predict credit risk. <br>
 Finally, we will evaluate the performance of these models and give recommendations to the Fast Lending company on whether they should be used to predict credit risk.
 
 
-## Objectives
+Objectives
 1. Use Resampling Models to Predict Credit Risk
 2. Use the SMOTEENN Algorithm to Predict Credit Risk
 3. Use Ensemble Classifiers to Predict Credit Risk
 
-## Resources
+Resources
 - Data Sources: LoanStats_2019Q1.csv, credit_risk_resampling.ipynb, credit_risk_ensemble.ipynb.
 - Software & Frameworks: Python (3.7).
 - Libraries & Packages: Jupyter Notebook, NumPy (1.21.5), Scipy (1.7.3), Scikit-learn (1.0.2) for Over- and Under-sampling algorithms, Scikit-learn (0.23.2) for Ensemble Learning, imbalanced-learn library (0.7.0).
 
 
-## Methods & Code
+Methods & Code
 
 1. We will use the imbalanced-learn and scikit-learn libraries and evaluate three resampling machine learning models to determine which is better at predicting credit card risk. 
     - First, we will use the oversampling RandomOverSampler and SMOTE algorithms.
@@ -61,7 +61,7 @@ Finally, we will evaluate the performance of these models and give recommendatio
     - Using both algorithms, we resampled the dataset, counted the target classes, trained the ensemble classifier, and calculated the performance metrics. 
     
 
-## Results
+Results
 
 1. Oversampling and Undersampling the credit card loans dataset for the first quarter of 2019 by the lending services company: <br>
     - The loans dataset contained 115,675 rows of data in 144 columns. <br>
@@ -118,7 +118,7 @@ Finally, we will evaluate the performance of these models and give recommendatio
     
     - It is worth noting how highly efficient the ensemble learning algorithms were in achieving the task with a reduced number of coding steps and processing time.  
 
-## Recommendations
+Recommendations
 
 1. Among the following Machine Learning models for resampling data: Naive Random Oversampling, Synthetic Minority Oversampling Technique (SMOTE), Cluster Centroids Undersampling, and SMOTEENN (combines SMOTE and Edited Nearest Neighbors (ENN) algorithms) for combination resampling, the latest has shown the highest screening power for high-risk credit card loan applications.
     
